@@ -36,6 +36,9 @@
                 <a href="/about" class="mobile-nav__link">
                     <span class="mobile-nav__link-text">About Us</span>
                 </a>
+                <a href="/fandom" class="mobile-nav__link">
+                    <span class="mobile-nav__link-text">Fandom</span>
+                </a>
             </div>
         </div>
     </nav>
@@ -60,6 +63,9 @@
                     </a>
                     <a href="/about" class="desktop-nav__link">
                         <span class="desktop-nav__link-text">About Us</span>
+                    </a>
+                    <a href="/fandom" class="desktop-nav__link">
+                        <span class="desktop-nav__link-text">Fandom</span>
                     </a>
                 </div>
             </div>

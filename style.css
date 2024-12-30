@@ -26,7 +26,6 @@ ul, ol {
 /* 去除链接下划线 */
 a {
   text-decoration: none;
-  color: inherit;
 }
 
 /* 图片默认样式 */
@@ -330,13 +329,13 @@ body {
 }
 
 .footer-link {
-  font-size: 14px;
   text-decoration: none;
   color: white;
 }
 
 .footer-link:hover {
   opacity: 0.8;
+  color: white;
 }
 
 /* Footer Bottom */
@@ -348,11 +347,11 @@ body {
 .footer-bottom {
   display: flex;
   width: 100%;
-  max-width: 100%;
   flex-direction: column;
   gap: 24px;
   padding: 24px;
   box-sizing: border-box;
+  max-width: 1568px;
 }
 
 .social-media {
@@ -370,6 +369,7 @@ body {
 }
 
 .footer-bottom-text {
+  align-items: center;
   font-size: 12px;
 }
 
@@ -463,9 +463,8 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    gap: 16px;
     padding: 20px 64px;
-    margin: 0 auto;
-    box-sizing: border-box;
   }
   .footer-bottom-text {
     order: -1;
@@ -519,17 +518,22 @@ body {
   .footer-section-title {
     font-size: 20px;
   }
-  .footer-link {
-    font-size: 16px;
-  }
   .footer-bottom {
+    flex-direction: row;
     margin: 0 auto;
     max-width: 1568px;
-    box-sizing: border-box;
+    padding: 20px 64px;
+    justify-content: space-between;
+
   }
   .footer-bottom-text {
+    display: flex;
+    flex-direction: row;
     font-size: 14px;
     line-height: 24px;
+    gap: 24px;
+    order: -1;
+    justify-content: space-between;
   }
   .footer-policies {
     gap: 24px;

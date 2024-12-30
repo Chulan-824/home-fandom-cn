@@ -44,6 +44,7 @@
           <a href="/contact" class="footer-link">Contact Us</a>
           <a href="https://apply.workable.com/crazymaplestudio/" target="_blank" rel="noopener noreferrer" class="footer-link">Join Us</a>
           <a href="/about" class="footer-link">About Us</a>
+          <a href="/fandom" class="footer-link">Fandom</a>
         </div>
 
         <div class="footer-section">
