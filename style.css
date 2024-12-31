@@ -5,6 +5,37 @@
  Author: Chulan
 */
 
+/* 字体声明 */
+@font-face {
+  font-family: 'Avenir';
+  src: url('./fonts/Avenir-Roman.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./fonts/Avenir-Heavy.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./fonts/Avenir-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 设置全局字体变量 */
+:root {
+  --font-primary: 'Avenir', sans-serif;
+  --fontFamily: 'Avenir', sans-serif;
+}
+
 /* CSS Reset */
 * {
   margin: 0;
@@ -63,6 +94,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: var(--font-primary);
 }
 
 /* 主要内容区域 */
