@@ -14,16 +14,16 @@
           <div class="contact-item">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ic_address.svg" alt="address" />
             <div class="address-list">
-              <p class="address-item active" data-address="1277 Borregas Ave, Suite C, Sunnyvale, CA 94089">Sunnyvale</p>
+              <p class="address-item active">Sunnyvale</p>
               <div class="address-divider">|</div>
-              <p class="address-item" data-address="8616 National Blvd, Culver City, CA 90232">LA</p>
+              <p class="address-item" >LA</p>
               <div class="address-divider">|</div>
-              <p class="address-item" data-address="Floor 23A, Building 3, Xunmei Technology Plaza, No. 8 Keyuan Road, Yuehai Street, Nanshan District, Shenzhen">Shenzhen</p>
+              <p class="address-item">Shenzhen</p>
               <div class="address-divider">|</div>
-              <p class="address-item" data-address="Tower E, Yonghe Building, DongCheng District, BeiJing">Beijing</p>
+              <p class="address-item">Beijing</p>
             </div>
           </div>
-          <div id="selected-address">1277 Borregas Ave, Suite C, Sunnyvale, CA 94089</div>
+          <!-- <div id="selected-address">1277 Borregas Ave, Suite C, Sunnyvale, CA 94089</div> -->
         </div>
       </div>
 
@@ -44,7 +44,7 @@
           <a href="/contact" class="footer-link">Contact Us</a>
           <a href="https://apply.workable.com/crazymaplestudio/" target="_blank" rel="noopener noreferrer" class="footer-link">Join Us</a>
           <a href="/about" class="footer-link">About Us</a>
-          <a href="/fandom" class="footer-link">Fandom</a>
+          <a href="/resources" class="footer-link">Resources</a>
         </div>
 
         <div class="footer-section">
@@ -80,7 +80,7 @@
           <a href="/privacy_policy" class="footer-link">Privacy Policy</a>
           <a href="/terms_of_service" class="footer-link">Terms of Service</a>
         </div>
-        <span class="copyright">©️ 2017-2024 SUITA inc. All Rights Reserved.</span>
+        <span class="copyright">©️ 2017-2025 SUITA inc. All Rights Reserved.</span>
       </div>
     </div>
   </div>
@@ -97,7 +97,7 @@
       // 添加当前项的active类
       this.classList.add('active')
       // 更新显示的地址
-      document.getElementById('selected-address').textContent = this.dataset.address
+      // document.getElementById('selected-address').textContent = this.dataset.address
     })
   })
 </script>

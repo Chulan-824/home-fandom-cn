@@ -13,7 +13,7 @@
     <!-- 移动端导航 -->
     <nav class="mobile-nav">
         <div class="mobile-nav__header">
-            <a href="<?php echo home_url('/'); ?>" class="mobile-nav__logo">
+            <a href="/" class="mobile-nav__logo">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.svg" alt="logo" class="mobile-nav__logo-image" />
             </a>
             <button class="mobile-nav__toggle" aria-label="Toggle menu">
@@ -36,9 +36,6 @@
                 <a href="/about" class="mobile-nav__link">
                     <span class="mobile-nav__link-text">About Us</span>
                 </a>
-                <a href="/fandom" class="mobile-nav__link">
-                    <span class="mobile-nav__link-text">Fandom</span>
-                </a>
             </div>
         </div>
     </nav>
@@ -47,7 +44,7 @@
     <nav class="desktop-nav">
         <div class="desktop-nav__container">
             <div class="desktop-nav__left">
-                <a href="<?php echo home_url('/'); ?>" class="desktop-nav__logo">
+                <a href="/" class="desktop-nav__logo">
                     <img src="<?php echo get_theme_file_uri('assets/images/logo.svg'); ?>" alt="logo" class="desktop-nav__logo-image" />
                 </a>
 
@@ -63,9 +60,6 @@
                     </a>
                     <a href="/about" class="desktop-nav__link">
                         <span class="desktop-nav__link-text">About Us</span>
-                    </a>
-                    <a href="/fandom" class="desktop-nav__link">
-                        <span class="desktop-nav__link-text">Fandom</span>
                     </a>
                 </div>
             </div>
