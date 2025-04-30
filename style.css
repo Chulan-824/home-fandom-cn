@@ -609,6 +609,36 @@ body > .container {
     min-height: calc(100vh - 48px - 553px); /* 100vh - 移动端header高度 - footer高度 */
   }
 } 
+#primary button,
+#primary input,
+#primary select,
+#primary optgroup,
+#primary textarea,
+#primary p {
+  color: #2f3633;
+  margin-bottom: 24px;
+}
+
+#primary article ul {
+  list-style: disc;
+}
+
+#primary article ul {
+  margin-bottom: 24px;
+}
+
+#primary .entry-content p a,
+#primary .entry-content ul a {
+  text-decoration: underline;
+}
+
+#primary .submit {
+  color: #fff
+}
+
+.wp-block-heading {
+  margin-bottom: 1rem;
+}
 
 .wp-block-buttons {
   margin-top: 28px;
@@ -619,6 +649,10 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+}
+
+body .container {
+  margin-bottom: 30px;
 }
 
 ul,
