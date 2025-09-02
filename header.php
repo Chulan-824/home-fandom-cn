@@ -25,16 +25,16 @@
         <div class="mobile-nav__content">
             <div class="mobile-nav__links">
                 <a href="/products" class="mobile-nav__link">
-                    <span class="mobile-nav__link-text">Products</span>
+                    <span class="mobile-nav__link-text">我们的产品</span>
                 </a>
                 <a href="/contact" class="mobile-nav__link">
-                    <span class="mobile-nav__link-text">Contact Us</span>
+                    <span class="mobile-nav__link-text">联系我们</span>
                 </a>
                 <a href="https://apply.workable.com/crazymaplestudio/" class="mobile-nav__link">
-                    <span class="mobile-nav__link-text">Join Us</span>
+                    <span class="mobile-nav__link-text">加入我们</span>
                 </a>
                 <a href="/about" class="mobile-nav__link">
-                    <span class="mobile-nav__link-text">About Us</span>
+                    <span class="mobile-nav__link-text">关于我们</span>
                 </a>
             </div>
         </div>
@@ -50,16 +50,16 @@
 
                 <div class="desktop-nav__links">
                     <a href="/products" class="desktop-nav__link">
-                        <span class="desktop-nav__link-text">Products</span>
+                        <span class="desktop-nav__link-text">我们的产品</span>
                     </a>
                     <a href="/contact" class="desktop-nav__link">
-                        <span class="desktop-nav__link-text">Contact Us</span>
+                        <span class="desktop-nav__link-text">联系我们</span>
                     </a>
                     <a href="https://apply.workable.com/crazymaplestudio/" class="desktop-nav__link" target="_blank" rel="noopener noreferrer">
-                        <span class="desktop-nav__link-text">Join Us</span>
+                        <span class="desktop-nav__link-text">加入我们</span>
                     </a>
                     <a href="/about" class="desktop-nav__link">
-                        <span class="desktop-nav__link-text">About Us</span>
+                        <span class="desktop-nav__link-text">关于我们</span>
                     </a>
                 </div>
             </div>

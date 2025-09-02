@@ -5,7 +5,7 @@
       <!-- 信息部分 -->
       <div class="footer-info">
         <img class="footer-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.svg" alt="logo" />
-        <p class="footer-title">Crazy Maple Studio</p>
+        <p class="footer-title">Crazy Maple Studio 枫叶互动</p>
         <div class="footer-contact">
           <div class="contact-item">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ic_email.svg" alt="email" />
@@ -18,9 +18,9 @@
               <div class="address-divider">|</div>
               <p class="address-item" >LA</p>
               <div class="address-divider">|</div>
-              <p class="address-item">Shenzhen</p>
+              <p class="address-item">深圳</p>
               <div class="address-divider">|</div>
-              <p class="address-item">Beijing</p>
+              <p class="address-item">北京</p>
             </div>
           </div>
           <!-- <div id="selected-address">1277 Borregas Ave, Suite C, Sunnyvale, CA 94089</div> -->
@@ -33,24 +33,23 @@
       <!-- 链接部分 -->
       <div class="footer-links">
         <div class="footer-section">
-          <p class="footer-section-title">Our Product</p>
+          <p class="footer-section-title">主营业务</p>
           <a href="https://www.reelshort.com" target="_blank" class="footer-link">ReelShort</a>
           <a href="https://chaptersgame.com" target="_blank" class="footer-link">Chapters</a>
-          <a href="https://read.writekiss.com" target="_blank" class="footer-link">Kiss</a>
+          <a href="https://read.writekiss.com" target="_blank" class="footer-link">My Fiction</a>
         </div>
 
         <div class="footer-section">
-          <p class="footer-section-title">Company Info</p>
-          <a href="/contact" class="footer-link">Contact Us</a>
-          <a href="https://apply.workable.com/crazymaplestudio/" target="_blank" rel="noopener noreferrer" class="footer-link">Join Us</a>
-          <a href="/about" class="footer-link">About Us</a>
-          <a href="/resources" class="footer-link">Resources</a>
+          <p class="footer-section-title">公司信息</p>
+          <a href="/contact" class="footer-link">联系我们</a>
+          <a href="https://apply.workable.com/crazymaplestudio/" target="_blank" rel="noopener noreferrer" class="footer-link">加入我们</a>
+          <a href="/about" class="footer-link">关于我们</a>
+          <a href="/xinwen" class="footer-link">新闻</a>
         </div>
 
         <div class="footer-section">
-          <p class="footer-section-title">Cookie Policy</p>
-          <a href="/privacy_policy" class="footer-link">Privacy Policy</a>
-          <a href="/terms_of_service" class="footer-link">Terms of Service</a>
+          <p class="footer-section-title">通知公告</p>
+          <a href="/statement" class="footer-link">通知公告</a>
         </div>
       </div>
     </div>
@@ -60,27 +59,8 @@
   <div class="footer-bottom-wrapper">
     <!-- 底部 -->
     <div class="footer-bottom">
-      <div class="social-media">
-        <a href="https://www.instagram.com/crazymaplestudios" target="_blank">
-          <img class="social-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ic_ins.svg" alt="Instagram" />
-        </a>
-        <a href="https://www.linkedin.com/company/crazy-maple-studio-inc/jobs" target="_blank">
-          <img class="social-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ic_linkedin.svg" alt="LinkedIn" />
-        </a>
-        <a href="https://x.com/CMapleStudio" target="_blank">
-          <img class="social-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ic_x.svg" alt="X" />
-        </a>
-        <a href="https://www.facebook.com/crazymaplestudios" target="_blank">
-          <img class="social-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ic_facebook.svg" alt="Facebook" />
-        </a>
-      </div>
-
       <div class="footer-bottom-text">
-        <div class="footer-policies">
-          <a href="/privacy_policy" class="footer-link">Privacy Policy</a>
-          <a href="/terms_of_service" class="footer-link">Terms of Service</a>
-        </div>
-        <span class="copyright">©️ 2017-2025 SUITA inc. All Rights Reserved.</span>
+        <span class="copyright">© 2017-2025 SUITA inc. All Rights Reserved.</span>
       </div>
     </div>
   </div>
