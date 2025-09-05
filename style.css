@@ -674,6 +674,6 @@ ol {
   content: '';
 }
 /* 单页文章导航样式 */
-.single .type-post .post-navigation.post-navigation {
+.single .site-main .navigation.post-navigation {
   display: none;
 }
