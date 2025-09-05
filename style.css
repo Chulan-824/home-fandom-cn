@@ -660,3 +660,20 @@ ol {
   margin-left: 0;
   padding-left: 20px;
 }
+
+/* 单页文章图片样式 */
+.single .type-post .featured-image img {
+  margin: 0 auto;
+}
+/* 单页文章作者样式 */
+.single .type-post .entry-meta .byline {
+  display: none;
+}
+/* 单页文章时间样式 */
+.single .type-post .entry-meta .posted-on::after {
+  content: '';
+}
+/* 单页文章导航样式 */
+.single .type-post .post-navigation.post-navigation {
+  display: none;
+}
